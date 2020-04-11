@@ -8,6 +8,6 @@ A simple dashboard to manage and keep track of the serial numbers of your techno
 
 ## Built With
 
-(Python 3)[https://www.python.org/] - Language
-(Flask)[https://palletsprojects.com/p/flask/] - Web Framework
-(Tabler)[https://tabler.io/] - Front End/UI Template
+* (Python 3)[https://www.python.org/] - Language
+* (Flask)[https://palletsprojects.com/p/flask/] - Web Framework
+* (Tabler)[https://tabler.io/] - Front End/UI Template
