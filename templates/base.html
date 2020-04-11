@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-alpha.4
+* @link https://github.com/tabler/tabler
+* Copyright 2018-2019 The Tabler Authors
+* Copyright 2018-2019 codecalm.net Paweł Kuna
+* Licensed under MIT (https://tabler.io/license)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <meta name="msapplication-TileColor" content="#206bc4"/>
+    <meta name="theme-color" content="#206bc4"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="robots" content="noindex,nofollow,noarchive"/>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+
+    <!-- Tabler Core -->
+    <link href="../static/css/tabler.min.css" rel="stylesheet"/>
+  {% block head %}{% endblock %}
+  </head>
+  <body class="antialiased">
+    <div class="page">
+      <nav class="navbar navbar-light navbar-secondary navbar-expand" id="navbar-secondary">
+        <div class="container">
+          <a href="/" class="navbar-brand navbar-brand-autodark d-none-navbar-vertical">
+            <img src="../static/images/serialdb_logo.png" alt="SerialDB" class="navbar-brand-logo navbar-brand-logo-large">
+            <img src="../static/images/serialdb_logo.png" alt="SerialDB" class="navbar-brand-logo navbar-brand-logo-small">
+          </a>
+
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container">
+          <!-- Page title -->
+ {% block body %}{% endblock %}
+        <footer class="footer footer-transparent">
+          <div class="container">
+            <div class="row text-center align-items-center flex-row-reverse">
+              <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+                Copyright © 2020
+                <a href="#" class="link-secondary">SerialDB</a>.
+                All rights reserved.
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+   
+<!-- Libs JS -->
+<script src="../static/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
